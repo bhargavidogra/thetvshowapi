@@ -3,12 +3,16 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node index.js",
-    "node-server": "nodemon index.js"
-  },
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
+    },
   "engines": {
     "node": "12.11.1"
-    },
+  },
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
@@ -22,6 +26,7 @@
     "node-fetch": "^2.6.0",
     "nodemon": "^2.0.4",
     "redis": "^3.0.2",
+    "serve": "^11.3.2",
     "sqlite3": "^5.0.0"
   }
 }
