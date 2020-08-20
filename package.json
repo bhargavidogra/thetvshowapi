@@ -6,6 +6,9 @@
     "start": "node index.js",
     "node-server": "nodemon index.js"
   },
+  "engines": {
+    "node": "12.11.1"
+    },
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
