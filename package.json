@@ -5,6 +5,9 @@
   "scripts": {
     "start": "nodemon node ./bin/www && node index.js"
   },
+  "engines": {
+    "node": "12.16.2"
+  },
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
