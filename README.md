@@ -24,7 +24,7 @@ To Run the app :
    3)Starting the node app by using command- npm start
    4)Project runs on localhost:3000 
    5)To get top Tvshow Episodes by id run : localhost:3000/topEpisodes/{Tv_series_id}  - Shall Return the top 20 episodes of particular series
-   6)To get top 5 series overall run : localhost:3000/analytics/popularSeries - Shall return the top 5 series according to vote_average
+   6)To get top 5 series overall run : localhost:3000/analytics/popularSeries - Shall return the top 5 series according to vote_average -Limitation : This api takes up more time to fetch data records and compare them to get required result on frontend(because of the time limit stamp of heroku it fails to process this reuest but works fine on local host environment).
 
 
 To have look at deployed version : 
