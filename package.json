@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon node ./bin/www && node index.js"
+    "start": "node ./bin/www"
   },
   "engines": {
     "node": "12.16.2"
