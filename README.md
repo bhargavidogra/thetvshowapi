@@ -18,9 +18,10 @@ https://developers.themoviedb.org/3/tv-seasons/get-tv-season-details (GET TV Ser
 
 To Run the app :
 
-1)Download the project by cloning git repository
-2)Run npm install
-3)Starting the node app by using command- npm start
-4)Project runs on localhost:3000 
-5)To get top Tvshow Episodes by id run : localhost:3000/topEpisodes/{Tv_series_id}  - Shall Return the top 20 episodes of particular series
-6)To get top 5 series overall run : localhost:3000/analytics/popularSeries - Shall return the top 5 series according to vote_average
+   1)Download the project by cloning git repository. Please create account on https://www.themoviedb.org/ 
+     - generate an API key for fetching data results and add the api key in helper/config.js for getting you app up and running.
+   2)Run npm install
+   3)Starting the node app by using command- npm start
+   4)Project runs on localhost:3000 
+   5)To get top Tvshow Episodes by id run : localhost:3000/topEpisodes/{Tv_series_id}  - Shall Return the top 20 episodes of particular series
+   6)To get top 5 series overall run : localhost:3000/analytics/popularSeries - Shall return the top 5 series according to vote_average
