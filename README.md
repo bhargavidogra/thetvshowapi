@@ -25,3 +25,10 @@ To Run the app :
    4)Project runs on localhost:3000 
    5)To get top Tvshow Episodes by id run : localhost:3000/topEpisodes/{Tv_series_id}  - Shall Return the top 20 episodes of particular series
    6)To get top 5 series overall run : localhost:3000/analytics/popularSeries - Shall return the top 5 series according to vote_average
+
+
+To have look at deployed version : go to  url link -  
+https://thetvshowapi.herokuapp.com/
+
+for getting results top 20 episodes of tvshow series enter your id (here 1)  as - https://thetvshowapi.herokuapp.com/topEpisodes/1
+for getting top 5 popularSeries enter - https://thetvshowapi.herokuapp.com/analytics/popularSeries
