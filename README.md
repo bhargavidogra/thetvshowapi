@@ -27,8 +27,7 @@ To Run the app :
    6)To get top 5 series overall run : localhost:3000/analytics/popularSeries - Shall return the top 5 series according to vote_average
 
 
-To have look at deployed version : go to  url link -  
-https://thetvshowapi.herokuapp.com/
-
-for getting results top 20 episodes of tvshow series enter your id (here 1)  as - https://thetvshowapi.herokuapp.com/topEpisodes/1
-for getting top 5 popularSeries enter - https://thetvshowapi.herokuapp.com/analytics/popularSeries
+To have look at deployed version : 
+            1) go to  url link -  https://thetvshowapi.herokuapp.com/
+            2)  for getting results top 20 episodes of tvshow series enter your id (here 1)  as - https://thetvshowapi.herokuapp.com/topEpisodes/1
+            3)for getting top 5 popularSeries enter - https://thetvshowapi.herokuapp.com/analytics/popularSeries
