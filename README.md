@@ -14,3 +14,13 @@ Response received shall give the top 5 series with best  vote_average out of all
 Used Upstreams:
 https://developers.themoviedb.org/3/tv/get-tv-details (GET TV Series Details)
 https://developers.themoviedb.org/3/tv-seasons/get-tv-season-details (GET TV Series Details for a season)
+
+
+To Run the app :
+
+1)Download the project by cloning git repository
+2)Run npm install
+3)Starting the node app by using command- npm start
+4)Project runs on localhost:3000 
+5)To get top Tvshow Episodes by id run : localhost:3000/topEpisodes/{Tv_series_id}  - Shall Return the top 20 episodes of particular series
+6)To get top 5 series overall run : localhost:3000/analytics/popularSeries - Shall return the top 5 series according to vote_average
